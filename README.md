@@ -1,1 +1,1 @@
-# Yana pour Windows Pgone 8.1
+# Yana pour Windows Phone 8.1
