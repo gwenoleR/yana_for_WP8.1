@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="Yana.configPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Yana"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="59"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Configuration" Grid.Row="0" FontSize="40" FontFamily="Bold" Margin="10,0,0,0"/>
+
+        <TextBlock Text="Adresse du server (Externe, sans http) : "  Grid.Row="1" FontSize="20" VerticalAlignment="Bottom" Margin="10,0,10,0"/>
+        <TextBox PlaceholderText="80.15.X.X ou mondomaine.fr" Grid.Row="2" Name="serverExt" Margin="10,0,10,0"/>
+
+        <TextBlock Text="Adresse du server (Interne, sans http) : "  Grid.Row="3" FontSize="20" VerticalAlignment="Bottom" Margin="10,0,10,0"/>
+        <TextBox PlaceholderText="192.168.X.X" Grid.Row="4" Name="serverInt" Margin="10,0,10,0"/>
+
+        <TextBlock Text="Votre token : "  Grid.Row="5" FontSize="20" VerticalAlignment="Bottom" Margin="10,0,10,0"/>
+        <TextBox Grid.Row="6" Name="token" Margin="10,0,10,0"/>
+
+        <TextBlock Text="Port de communication du socket : "  Grid.Row="7" FontSize="20" VerticalAlignment="Bottom" Margin="10,0,10,0"/>
+        <TextBox PlaceholderText="Par defaut 9999" Grid.Row="8" Name="port" Margin="10,0,10,0"/>
+    
+        <ToggleSwitch Grid.Row="9" Margin="10,0,10,0" OffContent="Text-To-Speech" OnContent="Text-To-Speech" Name="tts"/>
+        <Button x:ConnectionId='1' Name="saveConf" Content="Enregistrer" Grid.Row="11" HorizontalAlignment="Center"                       />
+    
+    </Grid>
+</Page>
+

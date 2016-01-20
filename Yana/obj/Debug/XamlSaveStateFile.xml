@@ -1,0 +1,14 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\yana\obj\debug\intermediatexaml\yana.exe" HashGuid="c40d00d1-0835-f2f7-39b9-ddb8fbed8d40" />
+    <ReferenceAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\packages\flurl.1.0.10\lib\portable-net40+sl50+win+wpa81+wp80+monoandroid10+monotouch10\flurl.dll" HashGuid="206c88b4-06fa-0f0a-4850-c41540e4a571" />
+    <ReferenceAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\packages\flurl.http.0.7.0\lib\portable-net45+sl50+win+wpa81+wp80\flurl.http.dll" HashGuid="cac9d4f2-4609-c2ff-9dfd-aa21a2086c93" />
+    <ReferenceAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
+    <ReferenceAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
+    <ReferenceAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\packages\newtonsoft.json.8.0.2\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="162c20b4-a475-cf2a-9fa7-87c831216ecc" />
+    <ReferenceAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\packages\pclstorage.0.9.6\lib\portable-win8+wpa81\pclstorage.abstractions.dll" HashGuid="736550c0-daf7-fc43-5e2e-a9023a3ecf57" />
+    <ReferenceAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\packages\pclstorage.0.9.6\lib\portable-win8+wpa81\pclstorage.dll" HashGuid="b3c72855-4fce-2ada-bc0f-5135882cc5d5" />
+    <ReferenceAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\packages\microsoft.net.http.2.2.22\lib\wpa81\system.net.http.extensions.dll" HashGuid="1d9d21be-6daa-468f-1b93-4e738d786e1b" />
+    <ReferenceAssembly PathName="c:\users\gwénolé\documents\visual studio 2013\projects\yana\packages\microsoft.net.http.2.2.22\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
