@@ -33,7 +33,7 @@
         <TextBox PlaceholderText="80.15.X.X ou mondomaine.fr" Grid.Row="2" Name="serverExt" Margin="10,0,10,0"/>
 
         <TextBlock Text="Adresse du server (Interne, sans http) : "  Grid.Row="3" FontSize="20" VerticalAlignment="Bottom" Margin="10,0,10,0"/>
-        <TextBox PlaceholderText="192.168.X.X" Grid.Row="4" Name="serverInt" Margin="10,0,10,0"/>
+        <TextBox PlaceholderText="192.168.X.X/yana-server" Grid.Row="4" Name="serverInt" Margin="10,0,10,0"/>
 
         <TextBlock Text="Votre token : "  Grid.Row="5" FontSize="20" VerticalAlignment="Bottom" Margin="10,0,10,0"/>
         <TextBox Grid.Row="6" Name="token" Margin="10,0,10,0"/>
