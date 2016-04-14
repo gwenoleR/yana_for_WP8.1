@@ -74,7 +74,7 @@ namespace Yana
        
         async Task<string> getCommand()
         {
-            string url = String.Format("http://{0}/yana-server/action.php?action=GET_SPEECH_COMMAND&token={1}",serveurAdresse,localSettings.Values["savedToken"].ToString());
+            string url = String.Format("http://{0}/action.php?action=GET_SPEECH_COMMAND&token={1}",serveurAdresse,localSettings.Values["savedToken"].ToString());
             var responseString = await url.GetStringAsync();
             return responseString;
         }
@@ -95,7 +95,7 @@ namespace Yana
                 //Data Connect
                 serveurAdresse = localSettings.Values["savedServerExt"].ToString();
             }
-            serveur.Text = "Serveur : " + serveurAdresse + "/yana-server";
+            serveur.Text = "Serveur : " + serveurAdresse;
 
             //Recuperation des commandes
             string json = await getCommand();
